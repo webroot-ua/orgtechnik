@@ -1,0 +1,14 @@
+.brand {
+  color: blue;
+}
+
+.comment {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.note {
+  text-align: justify;
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Brother",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и мфу brother",
+    "note": "Стоимость восстановления (замена фотобарабана) драм-картриджа не включает заправку тонер-картриджа, а также замены других деталей.",
+    "models": [
+      {"id": 1, "name": "Brother HL-L2300DR", "kod": "TN-2335 / TN-2375", "price": "160 / 270 грн.", "remanufacturing": "Please call"},
+      {"id": 2, "name": "Brother HL-L2340DWR", "kod": "TN-2335 / TN-2375", "price": "160 / 270 грн.", "remanufacturing": "Please call"},
+      {"id": 3, "name": "Brother HL-L2360DNR", "kod": "TN-2335 / TN-2375", "price": "160 / 270 грн.", "remanufacturing": "Please call"},
+      {"id": 4, "name": "Brother HL-L2365DWR", "kod": "TN-2335 / TN-2375", "price": "160 / 270 грн.", "remanufacturing": "Please call"},
+      {"id": 5, "name": "Brother HL-1030", "kod": "TN-6300 / TN-6600", "price": "270 / 490 грн.", "remanufacturing": "Please call"},
+      {"id": 6, "name": "Brother HL-1110R", "kod": "TN-1075", "price": "150 грн.", "remanufacturing": "Please call"},
+      {"id": 7, "name": "Brother HL-1112R", "kod": "TN-1075", "price": "150 грн.", "remanufacturing": "Please call"},
+      {"id": 8, "name": "Brother HL-1210WR", "kod": "TN-1075", "price": "150 грн.", "remanufacturing": "Please call"},
+      {"id": 9, "name": "Brother HL-1212WR", "kod": "TN-1075", "price": "150 грн.", "remanufacturing": "Please call"},
+      {"id": 10, "name": "Brother HL-1230", "kod": "TN-6300 / TN-6600", "price": "270 / 490 грн.", "remanufacturing": "Please call"}
+  
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Canon",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ canon",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "Canon LBP800", "kod": "Canon EP22", "price": "135 грн.", "remanufacturing": "320 грн."},
+      {"id": 2, "name": "Canon LBP810", "kod": "Canon EP22", "price": "135 грн.", "remanufacturing": "320 грн."},
+      {"id": 3, "name": "Canon LBP1120", "kod": "Canon EP22", "price": "135 грн.", "remanufacturing": "320 грн."},
+      {"id": 4, "name": "Canon LBP1210", "kod": "Canon EP25", "price": "135 грн.", "remanufacturing": "320 грн."},
+      {"id": 5, "name": "Canon LBP151DW", "kod": "Canon 737", "price": "125 грн.", "remanufacturing": "320 грн."}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Epson",
+    "title": "Заправка картриджей, восстановление картриджей принтеров epson",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "EPL 5500", "kod": "S050005", "price": "80 грн.", "remanufacturing": "255 грн."},
+      {"id": 2, "name": "EPL 6200", "kod": "S050167", "price": "80 грн.", "remanufacturing": "255 грн."}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "HP",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ hewlett packard ( HP )",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "HP LJ 4", "kod": "92298A", "price": "240 грн.", "remanufacturing": "Please call"},
+      {"id": 2, "name": "HP LJ 4M", "kod": "92298A", "price": "240 грн.", "remanufacturing": "Please call"},
+      {"id": 3, "name": "HP LJ 4+", "kod": "92298A", "price": "240 грн.", "remanufacturing": "Please call"},
+      {"id": 4, "name": "HP LJ 4L", "kod": "С92274A", "price": "135 грн.", "remanufacturing": "Please call"},
+      {"id": 5, "name": "HP LJ 4P", "kod": "С92274A", "price": "135 грн.", "remanufacturing": "Please call"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Konica Minolta",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и мфу Konica Minolta",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "Konica Minolta PagePro 1480MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"},
+      {"id": 2, "name": "Konica Minolta PagePro 1490MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"}
+    ]
+  }
+]
