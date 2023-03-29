@@ -1,9 +1,11 @@
-import { useState } from "react"
+import MainContainer from "../components/MainContainer"
 const Prices = (props) => {
   return (
-    <div>
-      <h1>Цены на услуги</h1>
-    </div>
+    <MainContainer keywords={"цены, прайс"}>
+      <div>
+        <h1>Цены на услуги</h1>
+      </div>
+    </MainContainer>
   )
 }
 

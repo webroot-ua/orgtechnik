@@ -2,9 +2,9 @@ import {useRouter} from 'next/router'
 import { useState, useEffect } from 'react'
 import MainContainer from '../../components/MainContainer'
 import styles from '../../styles/brand.module.css'
-import data from './brands.json'
+import data from './remont.json'
 
-export default function Brand({}) {
+export default function Remont({}) {
   const {query} = useRouter()
   const [brands, setBrands] = useState([])
   const [brand, setBrand] = useState([])
@@ -29,18 +29,20 @@ return (
           <thead>
             <tr key={0}>
               <th>Модель аппарата</th>
-              <th>Код картриджа</th>
-              <th>Цена заправки</th>
-              <th>Восстановление</th>
+              <th>Замена ролика захвата (подачи) бумаги</th>
+              <th>Замена тормозной площадки</th>
+              <th>Замена термоплёнки</th>
+              <th>Профилактика</th>
             </tr>
           </thead>
           <tbody>
           {brand && brand.models && brand.models.map((model) => (
             <tr key={model.id}>
               <td>{model.name}</td>
-              <td>{model.kod}</td>
-              <td>{model.price}</td>
-              <td>{model.remanufacturing}</td>
+              <td>{model.roll}</td>
+              <td>{model.brake}</td>
+              <td>{model.film}</td>
+              <td>{model.service}</td>
             </tr>
           ))}
           </tbody>

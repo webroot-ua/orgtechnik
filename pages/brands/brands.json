@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Brother",
-    "title": "Заправка картриджей, восстановление картриджей принтеров и мфу brother",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Brother",
     "note": "Стоимость восстановления (замена фотобарабана) драм-картриджа не включает заправку тонер-картриджа, а также замены других деталей.",
     "models": [
       {"id": 1, "name": "Brother HL-L2300DR", "kod": "TN-2335 / TN-2375", "price": "160 / 270 грн.", "remanufacturing": "Please call"},
@@ -15,14 +15,13 @@
       {"id": 8, "name": "Brother HL-1210WR", "kod": "TN-1075", "price": "150 грн.", "remanufacturing": "Please call"},
       {"id": 9, "name": "Brother HL-1212WR", "kod": "TN-1075", "price": "150 грн.", "remanufacturing": "Please call"},
       {"id": 10, "name": "Brother HL-1230", "kod": "TN-6300 / TN-6600", "price": "270 / 490 грн.", "remanufacturing": "Please call"}
-  
     ]
   },
   {
     "id": 2,
     "name": "Canon",
-    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ canon",
-    "note": "",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Canon",
+    "note": "Стоимость восстановления (замена фотобарабана) включает заправку картриджа, но не включает замену других деталей.",
     "models": [
       {"id": 1, "name": "Canon LBP800", "kod": "Canon EP22", "price": "135 грн.", "remanufacturing": "320 грн."},
       {"id": 2, "name": "Canon LBP810", "kod": "Canon EP22", "price": "135 грн.", "remanufacturing": "320 грн."},
@@ -34,8 +33,8 @@
   {
     "id": 3,
     "name": "Epson",
-    "title": "Заправка картриджей, восстановление картриджей принтеров epson",
-    "note": "",
+    "title": "Заправка картриджей, восстановление картриджей принтеров Epson",
+    "note": "Стоимость восстановления (замена фотобарабана) включает заправку картриджа, но невключает замену других деталей.",
     "models": [
       {"id": 1, "name": "EPL 5500", "kod": "S050005", "price": "80 грн.", "remanufacturing": "255 грн."},
       {"id": 2, "name": "EPL 6200", "kod": "S050167", "price": "80 грн.", "remanufacturing": "255 грн."}
@@ -44,8 +43,8 @@
   {
     "id": 4,
     "name": "HP",
-    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ hewlett packard ( HP )",
-    "note": "",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Hewlett Packard ( HP )",
+    "note": "Стоимость восстановления (замена фотобарабана) включает заправку картриджа, но невключает замену других деталей.",
     "models": [
       {"id": 1, "name": "HP LJ 4", "kod": "92298A", "price": "240 грн.", "remanufacturing": "Please call"},
       {"id": 2, "name": "HP LJ 4M", "kod": "92298A", "price": "240 грн.", "remanufacturing": "Please call"},
@@ -57,11 +56,191 @@
   {
     "id": 5,
     "name": "Konica Minolta",
-    "title": "Заправка картриджей, восстановление картриджей принтеров и мфу Konica Minolta",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Konica Minolta",
+    "note": "*** В стоимость входит заправка картриджа и замена (обнуление, прошивка) чипа, smart card.",
+    "models": [
+      {"id": 1, "name": "Konica Minolta PagePro 1480MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"},
+      {"id": 2, "name": "Konica Minolta PagePro 1490MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Lexmark",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Lexmark",
+    "note": "* Стоимость восстановления (замена фотобарабана) драм-картриджа не включает заправку тонер-картриджа, а также замены других деталей. ** В стоимость входит заправка картриджа и замена (обнуление, прошивка) чипа.",
+    "models": [
+      {"id": 1, "name": "Lexmark Optra E", "kod": "69G8256", "price": "80 грн.", "remanufacturing": "245 грн."},
+      {"id": 2, "name": "Optra EP", "kod": "69G8256", "price": "80 грн.", "remanufacturing": "245 грн."},
+      {"id": 3, "name": "Optra ET", "kod": "69G8256", "price": "80 грн.", "remanufacturing": "245 грн."},
+      {"id": 4, "name": "Optra ES", "kod": "69G8256", "price": "80 грн.", "remanufacturing": "245 грн."},
+      {"id": 5, "name": "Lexmark E120", "kod": "12036SE", "price": "175 грн.**", "remanufacturing": "-"},
+      {"id": 6, "name": "Lexmark E220", "kod": "12S0300", "price": "175 грн.**", "remanufacturing": "190 грн."},
+      {"id": 7, "name": "Lexmark E230", "kod": "12A8300 / 12A8305", "price": "175 / 285 грн.**", "remanufacturing": "245 грн."},
+      {"id": 8, "name": "Lexmark E232", "kod": "12A8300 / 12A8305", "price": "175 / 285 грн.**", "remanufacturing": "245 грн."},
+      {"id": 9, "name": "Lexmark E238", "kod": "23820SW", "price": "175 грн.**", "remanufacturing": "245 грн."},
+      {"id": 10, "name": "Lexmark E250", "kod": "E250A21E", "price": "175 грн.**", "remanufacturing": "-"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Panasonic",
+    "title": "Заправка лазерных картриджей принтеров и МФУ Panasonic",
     "note": "",
     "models": [
       {"id": 1, "name": "Konica Minolta PagePro 1480MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"},
       {"id": 2, "name": "Konica Minolta PagePro 1490MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Samsung",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Samsung",
+    "note": "* Стоимость восстановления (замена фотобарабана) одного картриджа. Стоимость не включает замены других деталей. ** Стоимость заправки одного картриджа и обнуление (прошивка) чипа. *** Заправка картриджа возможна только после прошивки оборудования.",
+    "models": [
+      {"id": 1, "name": "Konica Minolta PagePro 1480MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"},
+      {"id": 2, "name": "Konica Minolta PagePro 1490MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sharp",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Sharp",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "Konica Minolta PagePro 1480MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"},
+      {"id": 2, "name": "Konica Minolta PagePro 1490MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Xerox",
+    "title": "Заправка картриджей, восстановление картриджей принтеров и МФУ Xerox",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "Konica Minolta PagePro 1480MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"},
+      {"id": 2, "name": "Konica Minolta PagePro 1490MF", "kod": "9967000877", "price": "220 грн.***", "remanufacturing": "350 грн.***"}
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Canon Color",
+    "title": "Заправка цветных лазерных картриджей принтеров и МФУ canon",
+    "note": "* Стоимость восстановления (замена фотобарабана) не включает заправку картриджа и замену чипа. ** Заправка картриджа включает замену чипа.",
+    "models": [
+      {"id": 1, "name": "Canon LBP-5050", "kod": "716 (C/M/Y/K)", "price": "320 грн.**", "remanufacturing": "300 грн."},
+      {"id": 2, "name": "Canon LBP-7010C", "kod": "729 (C/M/Y/K) / 029", "price": "320 грн.", "remanufacturing": "370 грн."},
+      {"id": 3, "name": "Canon LBP-7018C", "kod": "729 (C/M/Y/K) / 029", "price": "320 грн.", "remanufacturing": "370 грн."},
+      {"id": 4, "name": "Canon LBP-7100CN", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 5, "name": "Canon LBP-7110CW", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 6, "name": "Canon LBP-7200C", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 7, "name": "Canon LBP-7210CDN", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 8, "name": "Canon LBP-7660CDN", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 9, "name": "Canon LBP-7680CX", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 10, "name": "Canon LBP-7780CX", "kod": "732 (C/M/Y/K)", "price": "570 грн.", "remanufacturing": "уточняйте"},
+      {"id": 11, "name": "Canon MF-8030", "kod": "716 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 12, "name": "Canon MF-8050", "kod": "716 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 13, "name": "Canon MF-8230CN", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 14, "name": "Canon MF-8280CW", "kod": "731 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 15, "name": "Canon MF-8540CDN", "kod": "718 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 16, "name": "Canon MF-8550CDN", "kod": "718 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."},
+      {"id": 17, "name": "Canon MF-8580CDW", "kod": "718 (C/M/Y/K)", "price": "320 грн.", "remanufacturing": "300 грн."}
+    ]
+  },
+  {
+    "id": 41,
+    "name": "HP Color",
+    "title": "Заправка цветных лазерных картриджей принтеров и МФУ hewlett packard ( hp )",
+    "note": "* Стоимость восстановления (замена фотобарабана) включает заправку картриджа и замену чипа, но не включает замену других деталей. ** Заправка картриджа включает замену чипа.",
+    "models": [
+      {"id": 1, "name": "HP CLJ Pro CP1025", "kod": "CE310A/311A/312A/313A", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 2, "name": "HP CLJ CP1210", "kod": "CB540A (C/M/Y/K)", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 3, "name": "HP CLJ CP1215", "kod": "CB540A (C/M/Y/K)", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 4, "name": "HP CLJ CP1510", "kod": "CB540A (C/M/Y/K)", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 5, "name": "HP CLJ CP1515", "kod": "CB540A (C/M/Y/K)", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 6, "name": "HP CLJ CP1518", "kod": "CB540A (C/M/Y/K)", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 7, "name": "HP CLJ CP2025", "kod": "CC530A (C/M/Y/K)", "price": "250 грн.**", "remanufacturing": "405 грн."},
+      {"id": 8, "name": "HP CLJ CM1312", "kod": "CB540A (C/M/Y/K)", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 9, "name": "HP CLJ CM2320", "kod": "CC530A (C/M/Y/K)", "price": "250 грн.**", "remanufacturing": "405 грн."},
+      {"id": 10, "name": "HP LJ Pro 200 CP M251", "kod": "CF210A/211A/212A/213A", "price": "190 грн.**", "remanufacturing": "340 грн."},
+      {"id": 11, "name": "HP LJ Pro 200 MFP M276", "kod": "CF210A/211A/212A/213A", "price": "190 грн.**", "remanufacturing": "340 грн."}
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Samsung Color",
+    "title": "Заправка цветных лазерных картриджей принтеров и МФУ canon",
+    "note": "** Заправка картриджа включает замену чипа. *** Заправка картриджа возможна только после прошивки оборудования.",
+    "models": [
+      {"id": 1, "name": "Samsung CLP-300", "kod": "CLP-300A (C/M/Y/K)", "price": "185 грн.**", "remanufacturing": "-"},
+      {"id": 2, "name": "Samsung CLP-310", "kod": "CLT-409S (C/M/Y/K)", "price": "165 грн. ***", "remanufacturing": "-"},
+      {"id": 3, "name": "Samsung CLP-315", "kod": "CLT-409S (C/M/Y/K)", "price": "165 грн. ***", "remanufacturing": "-"},
+      {"id": 4, "name": "Samsung CLP-320", "kod": "CLT-407S (C/M/Y/K)", "price": "165 грн. ***", "remanufacturing": "-"},
+      {"id": 5, "name": "Samsung CLP-325", "kod": "CLT-407S (C/M/Y/K)", "price": "165 грн. ***", "remanufacturing": "-"},
+      {"id": 6, "name": "Samsung CLP-350", "kod": "CLP-350А (C/M/Y/K)", "price": "215 грн.**", "remanufacturing": "-"},
+      {"id": 7, "name": "Samsung CLX-2160", "kod": "CLP-300A (C/M/Y/K)", "price": "185 грн.**", "remanufacturing": "-"},
+      {"id": 8, "name": "Samsung CLX-3160", "kod": "CLP-300A (C/M/Y/K)", "price": "185 грн.**", "remanufacturing": "-"},
+      {"id": 9, "name": "Samsung CLX-3170", "kod": "CLT-409S (C/M/Y/K)", "price": "165 грн.**", "remanufacturing": "-"},
+      {"id": 10, "name": "Samsung CLX-3175", "kod": "CLT-409S (C/M/Y/K)", "price": "165 грн.**", "remanufacturing": "-"},
+      {"id": 11, "name": "Samsung CLX-3180", "kod": "CLT-407S (C/M/Y/K)", "price": "165 грн.**", "remanufacturing": "-"},
+      {"id": 12, "name": "Samsung CLX-3185", "kod": "CLT-407S (C/M/Y/K)", "price": "165 грн.**", "remanufacturing": "-"}
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Xerox Color",
+    "title": "Заправка цветных лазерных картриджей принтеров и МФУ xerox",
+    "note": "** Заправка картриджа включает замену чипа.",
+    "models": [
+      {"id": 1, "name": "Xerox Phaser 6000", "kod": "106R01631/2/3/4", "price": "230 грн.**", "remanufacturing": "-"},
+      {"id": 2, "name": "Xerox Phaser 6010", "kod": "106R01631/2/3/4", "price": "230 грн.**", "remanufacturing": "-"},
+      {"id": 3, "name": "Xerox Phaser 6110", "kod": "106R01203/4/5/6", "price": "185 грн.**", "remanufacturing": "-"},
+      {"id": 4, "name": "Xerox Phaser 6125", "kod": "106R01338/5/6/7", "price": "185 грн.**", "remanufacturing": "-"},
+      {"id": 5, "name": "Xerox Phaser 6128", "kod": "106R01456/7/8/9", "price": "295 грн.**", "remanufacturing": "-"},
+      {"id": 6, "name": "Xerox Phaser 6130", "kod": "106R01282/3/4/5", "price": "215 грн.**", "remanufacturing": "-"},
+      {"id": 7, "name": "Xerox Phaser 6140", "kod": "106R01481/2/3/4", "price": "215 грн.**", "remanufacturing": "-"},
+      {"id": 8, "name": "Xerox WC 6015", "kod": "106R01631/2/3/4", "price": "230 грн.**", "remanufacturing": "-"}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Brother Fax",
+    "title": "Заправка картриджей факсов Brother",
+    "note": "Стоимость восстановления (замена фотобарабана) драм-картриджа не включает заправку тонер-картриджа, а также замены других деталей.",
+    "models": [
+      {"id": 1, "name": "Brother FAX-2825", "kod": "TN-2000 / TN-2075", "price": "105 грн.", "remanufacturing": "210 грн."},
+      {"id": 2, "name": "Brother FAX-2920", "kod": "TN-2175 / TN-2135", "price": "105 грн.", "remanufacturing": "210 грн."}
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Canon Fax",
+    "title": "Заправка картриджей факсов Canon",
+    "note": "Стоимость восстановления (замена фотобарабана) включает заправку картриджа, но не включает замену других деталей.",
+    "models": [
+      {"id": 1, "name": "Canon MultiPASS L60", "kod": "FX-3", "price": "70 грн.", "remanufacturing": "180 грн."},
+      {"id": 2, "name": "Canon MultiPASS L90", "kod": "FX-3", "price": "70 грн.", "remanufacturing": "180 грн."}
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Panasonic Fax",
+    "title": "Ззаправка картриджей факсов Panasonic",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "Panasonic KX-FL401", "kod": "KX-FAT88A", "price": "317 грн.", "remanufacturing": "-"},
+      {"id": 2, "name": "Panasonic KX-FL402", "kod": "KX-FAT88A", "price": "317 грн.", "remanufacturing": "-"}
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Samsung Fax",
+    "title": "Заправка картриджей факсов Samsung",
+    "note": "",
+    "models": [
+      {"id": 1, "name": "Samsung SF-560", "kod": "SCX-4216D3", "price": "70 грн.", "remanufacturing": "200 грн."},
+      {"id": 2, "name": "Samsung SF-565", "kod": "SCX-4216D3", "price": "70 грн.", "remanufacturing": "200 грн."},
+      {"id": 3, "name": "Samsung SF-650", "kod": "MLT-D105S/L", "price": "70 грн. ***", "remanufacturing": "205 грн."},
+      {"id": 4, "name": "Samsung SF-750", "kod": "SCX-4216D3", "price": "70 грн.", "remanufacturing": "200 грн."}
     ]
   }
 ]
