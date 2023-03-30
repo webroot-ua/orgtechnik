@@ -13,7 +13,7 @@ const MainContainer = ({children, keywords}) => {
         <meta keywords={"Заправка картриджей, ремонт принтеров, " + keywords}></meta>
         <title>Заправка картриджей, ремонт принтеров в Киеве www.orgtechnik.com.ua т.0673753343</title>
       </Head>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="white" expand="lg">
       <Container>
         <Navbar.Brand className="p-2 bd-highlight logotext" href="/">OrgTechnik</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
