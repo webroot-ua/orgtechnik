@@ -20,7 +20,7 @@ export default function Brand({}) {
 console.log('brand ', brand)
 
 return (
-  <MainContainer>
+  <MainContainer keywords="">
     <div className='container'>
     {brand ? (
       <div className={styles.brand}>

@@ -17,10 +17,10 @@ export default function Remont({}) {
     }
   }, [query.id])
 
-console.log('brand ', brand)
+console.log('brand.name ', brand.name)
 
 return (
-  <MainContainer>
+  <MainContainer keywords="">
     <div className='container'>
     {brand ? (
       <div className={styles.brand}>
