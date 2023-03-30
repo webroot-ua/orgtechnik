@@ -2,20 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import A from "./A";
-import Head from "next/head";
 
-const MainContainer = ({children, keywords}) => {
+const NavBar = (props) => {
   return (
     <>
-      <Head>
-        <link rel="icon" href="favicon.ico" />
-        <meta keywords={"Заправка картриджей, ремонт принтеров, " + keywords}></meta>
-        <title>Заправка картриджей, ремонт принтеров в Киеве www.orgtechnik.com.ua т.0673753343</title>
-      </Head>
-      <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand className="p-2 bd-highlight logotext" href="/">OrgTechnik</Navbar.Brand>
+        <Navbar.Brand href="/">Оргтехник</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -50,7 +43,7 @@ const MainContainer = ({children, keywords}) => {
               <NavDropdown.Item href="/remont/83">Ремонт Samsung</NavDropdown.Item>
               <NavDropdown.Item href="/remont/103">Ремонт Xerox</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#">Прошивка принтеров МФУ</Nav.Link>
+            {/* <Nav.Link href="/prices">Цены</Nav.Link> */}
             <Nav.Link href="/contacts">Контакты</Nav.Link>
             <Nav.Link href="#">Информация</Nav.Link>
             {/* <Nav.Link href="#">Поиск</Nav.Link> */}
@@ -58,17 +51,9 @@ const MainContainer = ({children, keywords}) => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-      {/* <div className="navbar">
-        <A href={'/'} text="Главная" />
-        <A href={'/contacts'} text="Contacts" />
-        <A href={'/brands'} text="Brands" />
-      </div> */}
-      <div>
-        {children}
-      </div>
 
-    </>
-  );
-};
+  </>
+  )
+}
 
-export default MainContainer;
+export default NavBar

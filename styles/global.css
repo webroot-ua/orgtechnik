@@ -5,8 +5,7 @@
 }
 
 .navbar {
-  background: grey;
-  padding: 15px;
+  /* background: grey; */
 }
 
 .center {
@@ -63,4 +62,74 @@ tfoot td {
   background-color: rgb(175, 228, 122);
   padding: 0.5rem;
   border-radius: 8px;
+}
+
+.topColor {
+  color: #C97E07!important;
+  font-size: 0.9em;
+}
+
+.logotext {
+  font-weight: 900!important;
+  font-size: 2.4em;
+  color: #015981;
+}
+
+.searchBody {
+  align-self: flex-end;
+  width: 84%;
+}
+
+.search {
+  width: 80%;
+}
+
+.topBottons {
+  margin: 10px;
+  color: black;
+  border-radius: 5px;
+}
+
+.noUnder {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
+
+.titleText {
+  color: #015981;
+}
+
+.brandLogo {
+  background-color: white;
+}
+
+.brandlogoLink {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 1);
+}
+.brandlogoLink:hover {
+  box-shadow: -1px 1px 5px rgba(0, 0, 255, 1);
+}
+
+.brandlogo:hover{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(92,92,92,0.6));
+}
+.brandlogo2:hover{
+	background-image: linear-gradient(to right, rgba(92,92,92,0.6), rgba(255,255,255,0));
+}
+
+.top1{
+	background-image: linear-gradient(to right, rgba(92,92,92,0.8), rgba(255,255,255,0));
+}
+.top2{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(92,92,92,0.6));
+}
+
+.hpCopier {
+  width: 400px; 
+  height: auto;
 }
